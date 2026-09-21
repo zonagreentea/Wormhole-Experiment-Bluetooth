@@ -1,1 +1,1 @@
-transmit("airdrop", message.L)
+transmit(loop)
