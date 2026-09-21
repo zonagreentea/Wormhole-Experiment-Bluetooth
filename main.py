@@ -1,6 +1,6 @@
 import transmissionWrapper.L, position.L, message.L
 
-import sys
+import sys, time
 
 def run(source):
     for line in source.splitlines():
@@ -18,9 +18,9 @@ if __name__ == "__main__":
         source = file.read()
 
     run(source)
-
-run(transmissionWrapper.L)
-run(position.L)
-run(message.L)
+while True:
+    run(transmissionWrapper.L)
+    run(position.L)
+    run(message.L)
 
 return
