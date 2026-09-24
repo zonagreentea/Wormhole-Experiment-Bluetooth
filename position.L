@@ -1,1 +1,1 @@
-(5, Brooklyn, wide)
+(5, Brooklyn, Wide)
