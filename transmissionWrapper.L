@@ -1,1 +1,1 @@
-transmit(loop)
+transmit(loop, four, pop)
